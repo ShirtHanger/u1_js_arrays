@@ -55,35 +55,6 @@ friend.length
 
 ### Working with Arrays
 
-Using the JavaScript Keyword `new`, is one way of creating arrays:
-
-```javascript
-let a = new Array;
-=> undefined
-
-a[0] = 'dog';
-=> "dog"
-
-a[1] = 'cat';
-=> "cat"
-
-a[2] = 'hen';
-=> "hen"
-
-a
-=> ['dog', 'cat', 'hen']
-
-a.length;
-=> 3
-```
-
-A more convenient notation is to use an array literal:
-
-```javascript
-let a = ['dog', 'cat', 'hen'];
-
-a.length;
-=> 3
 ```
 
 ![Length](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F3o7btOtfwq4iFqCxb2%2Fgiphy.gif&f=1&nofb=1)
