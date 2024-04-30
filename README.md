@@ -40,22 +40,12 @@ let lastFriend = friends[2]
 => 'Curly'
 ```
 
-We can even use strings like arrays:
-
-```javascript
-let friend = "bobby bottleservice";
-// pick out first character
-friend[0]
-//=> 'b'
-friend.length
-//=> 19
-```
 
 ![Ray](https://c.tenor.com/lK9WCmPFfUIAAAAC/finding-nemo-sting-ray.gif)
 
 ### Working with Arrays
 
-```
+
 
 ![Length](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F3o7btOtfwq4iFqCxb2%2Fgiphy.gif&f=1&nofb=1)
 
