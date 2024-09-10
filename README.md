@@ -74,6 +74,32 @@ a[90];
 => undefined
 ```
 
+
+### Matrixes
+
+We can also nest Arrays within Arrays. These are called Matrixes. They are annoying, confusing, and largely unpopular in our current paradigm. We'll learn about Spread Operators and how to bypass these when we cover ES6 Syntax in week 2. For now, just know that they exist, how we can access them, and that if you see one, it means you're probably working with some kind of outdated or order code.
+
+```js
+const annoyingArray = [0, 1, [2,3], [4, [5,6]], 7, [8,9, 10]] 
+```
+We target our values by nesting our square brackets together. For example, if we wanted to log our value '2', we would do:
+
+```js
+console.log(annoyingArray[2][0]
+```
+
+Because it is the first element ('zero-ith') in the third ('two-ith') item
+
+How would target "7"?
+How about "1"?
+How about "5"?
+
+Matrixes are an interesting peice of JS code, but as you can see, its not something you'll want to have too much of in your code.
+Much like the 2nd and 3rd Matrix movies, we'll acknowledge that they exist, but we won't talk about them too much any more
+
+
+
+
 ### Array Helper Methods
 
 Arrays come with a number of methods. Here's a list of some popular helpers:
